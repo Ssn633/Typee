@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/7b3e02e52c.js" crossorigin="anonymous"></script>
+
+    <title>Typeee</title>
+    a
+</head>
+
+<body>
+
+
+    <div id="rules" class="rules">
+        <p>RULES : <br>1. Type the given text in the given place<br>2. It is not case sensistive<br>3. Initial time given is 15 sec and you will get added 3 sec if you answer correctly
+        </p>
+    </div>
+
+    <div class="container">
+
+        <h2>Come on.. Lets Type!!!</h2>
+
+        <small>Type the following:</small>
+
+        <h1 id="word"></h1>
+
+        <input type="text" id="text" autocomplete="off" placeholder="Type the word here..." autofocus/>
+
+        <p class="time-container">Time left: <span id="time">15s</span></p>
+
+        <p class="score-container">Score: <span id="score">0</span></p>
+
+        <div id="end-game-container" class="end-game-container"></div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
