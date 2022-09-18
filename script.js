@@ -111,12 +111,3 @@ text.addEventListener('input', e => {
         updateTime();
     }
 });
-
-// Settings btn click
-settingsBtn.addEventListener('click', () => settings.classList.toggle('hide'));
-
-// Settings select
-settingsForm.addEventListener('change', e => {
-    difficulty = e.target.value;
-    localStorage.setItem('difficulty', difficulty);
-});
