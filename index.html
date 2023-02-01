@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/Images/Fevi.webp">
+    <title>Typeee</title>
+</head>
+
+<body>
+    <header>
+        <div id="rules" class="rules">
+            <p>RULES : <br>1. Type the given text in the given place<br>2. It is not case sensistive<br>3. Initial time given is 15 sec and you will get added 2 sec if you answer correctly
+            </p>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Come on.. Lets Type!!!</h2>
+        <small>Type the following:</small>
+        <h1 id="word"></h1>
+        <input type="text" id="text" autocomplete="off" placeholder="Type the word here..." autofocus/>
+        <p class="time-container">Time left: <span id="time">15s</span></p>
+        <p class="score-container">Score: <span id="score">0</span></p>
+        <div id="end-game-container" class="end-game-container"></div>
+    </div>
+
+    <footer>
+        <div class="Connectme">
+            <h3>Connect with me</h3>
+            <a href="https://github.com/Ssn633"><img src="/Images/icons8-github.svg"></a>
+            <a href="https://www.instagram.com/sn__633/?r=nametag"><img src="/Images/icons8-instagram-48.svg"></a>
+            <a href="https://www.linkedin.com/in/swamynath-s-5139b2191/"><img src="/Images/icons8-linkedin-circled.svg"></a>
+        </div>
+        <p>Typeee. By @sn633</p>
+    </footer>
+    <script src="script.js "></script>
+</body>
+
+</html>
